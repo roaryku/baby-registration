@@ -1,38 +1,79 @@
-.App {
+body{
+  background-color: #ebecde;
+}
+
+h1{
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #5D0E41;
+  font-size: 40px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name{
+  color: #00224D;
+  font-size: 30px;
+  margin-top: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.price{
+  color: #A0153E;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+  font-family: "Open Sans", sans-serif;
+}
+.heading{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.previous{
+  margin: 15px;
+  padding: 5px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  background-color: white;
+  color: #e9a49b;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid #e9a49b;
+  font-weight: 700px;
+  text-transform: uppercase;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cta{
+  background: #ebecde;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  font-size: 22px;
+  color: #c2004a;
+}
+.btn{
+  /* display: inline-block; */
+  cursor: pointer;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  /* text-align: center; */
+  color: #fff;
+  background-color: #6d0625;
+  align-self: center;
+  font-family: "Open Sans", sans-serif;
+  padding: 15px;
+  margin-top: 30px;
+}
+.buyNow{
+  color: #fff;
+  background-color: #c2004a9b;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  font-weight: 500;
+}
+p{
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #31363F;
+ 
 }
